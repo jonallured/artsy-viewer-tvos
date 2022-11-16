@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC71DACF292497F600965E40 /* Artsy_ViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71DACE292497F600965E40 /* Artsy_ViewerApp.swift */; };
+		FC71DAD1292497F600965E40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71DAD0292497F600965E40 /* ContentView.swift */; };
+		FC71DAD3292497F600965E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC71DAD2292497F600965E40 /* Assets.xcassets */; };
+		FC71DAD6292497F600965E40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC71DAD5292497F600965E40 /* Preview Assets.xcassets */; };
+		FC71DAE0292497F600965E40 /* Artsy_ViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71DADF292497F600965E40 /* Artsy_ViewerTests.swift */; };
+		FC71DAEA292497F700965E40 /* Artsy_ViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71DAE9292497F700965E40 /* Artsy_ViewerUITests.swift */; };
+		FC71DAEC292497F700965E40 /* Artsy_ViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71DAEB292497F700965E40 /* Artsy_ViewerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC71DADC292497F600965E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC71DAC3292497F600965E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC71DACA292497F600965E40;
+			remoteInfo = "Artsy Viewer";
+		};
+		FC71DAE6292497F700965E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC71DAC3292497F600965E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC71DACA292497F600965E40;
+			remoteInfo = "Artsy Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC71DACB292497F600965E40 /* Artsy Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Artsy Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC71DACE292497F600965E40 /* Artsy_ViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artsy_ViewerApp.swift; sourceTree = "<group>"; };
+		FC71DAD0292497F600965E40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC71DAD2292497F600965E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC71DAD5292497F600965E40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC71DADB292497F600965E40 /* Artsy ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Artsy ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC71DADF292497F600965E40 /* Artsy_ViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artsy_ViewerTests.swift; sourceTree = "<group>"; };
+		FC71DAE5292497F700965E40 /* Artsy ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Artsy ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC71DAE9292497F700965E40 /* Artsy_ViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artsy_ViewerUITests.swift; sourceTree = "<group>"; };
+		FC71DAEB292497F700965E40 /* Artsy_ViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artsy_ViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC71DAC8292497F600965E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC71DAD8292497F600965E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC71DAE2292497F700965E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC71DAC2292497F600965E40 = {
+			isa = PBXGroup;
+			children = (
+				FC71DACD292497F600965E40 /* Artsy Viewer */,
+				FC71DADE292497F600965E40 /* Artsy ViewerTests */,
+				FC71DAE8292497F700965E40 /* Artsy ViewerUITests */,
+				FC71DACC292497F600965E40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC71DACC292497F600965E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC71DACB292497F600965E40 /* Artsy Viewer.app */,
+				FC71DADB292497F600965E40 /* Artsy ViewerTests.xctest */,
+				FC71DAE5292497F700965E40 /* Artsy ViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC71DACD292497F600965E40 /* Artsy Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				FC71DACE292497F600965E40 /* Artsy_ViewerApp.swift */,
+				FC71DAD0292497F600965E40 /* ContentView.swift */,
+				FC71DAD2292497F600965E40 /* Assets.xcassets */,
+				FC71DAD4292497F600965E40 /* Preview Content */,
+			);
+			path = "Artsy Viewer";
+			sourceTree = "<group>";
+		};
+		FC71DAD4292497F600965E40 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC71DAD5292497F600965E40 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC71DADE292497F600965E40 /* Artsy ViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC71DADF292497F600965E40 /* Artsy_ViewerTests.swift */,
+			);
+			path = "Artsy ViewerTests";
+			sourceTree = "<group>";
+		};
+		FC71DAE8292497F700965E40 /* Artsy ViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC71DAE9292497F700965E40 /* Artsy_ViewerUITests.swift */,
+				FC71DAEB292497F700965E40 /* Artsy_ViewerUITestsLaunchTests.swift */,
+			);
+			path = "Artsy ViewerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC71DACA292497F600965E40 /* Artsy Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC71DAEF292497F700965E40 /* Build configuration list for PBXNativeTarget "Artsy Viewer" */;
+			buildPhases = (
+				FC71DAC7292497F600965E40 /* Sources */,
+				FC71DAC8292497F600965E40 /* Frameworks */,
+				FC71DAC9292497F600965E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Artsy Viewer";
+			productName = "Artsy Viewer";
+			productReference = FC71DACB292497F600965E40 /* Artsy Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC71DADA292497F600965E40 /* Artsy ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC71DAF2292497F700965E40 /* Build configuration list for PBXNativeTarget "Artsy ViewerTests" */;
+			buildPhases = (
+				FC71DAD7292497F600965E40 /* Sources */,
+				FC71DAD8292497F600965E40 /* Frameworks */,
+				FC71DAD9292497F600965E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC71DADD292497F600965E40 /* PBXTargetDependency */,
+			);
+			name = "Artsy ViewerTests";
+			productName = "Artsy ViewerTests";
+			productReference = FC71DADB292497F600965E40 /* Artsy ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC71DAE4292497F700965E40 /* Artsy ViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC71DAF5292497F700965E40 /* Build configuration list for PBXNativeTarget "Artsy ViewerUITests" */;
+			buildPhases = (
+				FC71DAE1292497F700965E40 /* Sources */,
+				FC71DAE2292497F700965E40 /* Frameworks */,
+				FC71DAE3292497F700965E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC71DAE7292497F700965E40 /* PBXTargetDependency */,
+			);
+			name = "Artsy ViewerUITests";
+			productName = "Artsy ViewerUITests";
+			productReference = FC71DAE5292497F700965E40 /* Artsy ViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC71DAC3292497F600965E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FC71DACA292497F600965E40 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FC71DADA292497F600965E40 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FC71DACA292497F600965E40;
+					};
+					FC71DAE4292497F700965E40 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FC71DACA292497F600965E40;
+					};
+				};
+			};
+			buildConfigurationList = FC71DAC6292497F600965E40 /* Build configuration list for PBXProject "Artsy Viewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC71DAC2292497F600965E40;
+			productRefGroup = FC71DACC292497F600965E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC71DACA292497F600965E40 /* Artsy Viewer */,
+				FC71DADA292497F600965E40 /* Artsy ViewerTests */,
+				FC71DAE4292497F700965E40 /* Artsy ViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC71DAC9292497F600965E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC71DAD6292497F600965E40 /* Preview Assets.xcassets in Resources */,
+				FC71DAD3292497F600965E40 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC71DAD9292497F600965E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC71DAE3292497F700965E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC71DAC7292497F600965E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC71DAD1292497F600965E40 /* ContentView.swift in Sources */,
+				FC71DACF292497F600965E40 /* Artsy_ViewerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC71DAD7292497F600965E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC71DAE0292497F600965E40 /* Artsy_ViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC71DAE1292497F700965E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC71DAEC292497F700965E40 /* Artsy_ViewerUITestsLaunchTests.swift in Sources */,
+				FC71DAEA292497F700965E40 /* Artsy_ViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC71DADD292497F600965E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC71DACA292497F600965E40 /* Artsy Viewer */;
+			targetProxy = FC71DADC292497F600965E40 /* PBXContainerItemProxy */;
+		};
+		FC71DAE7292497F700965E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC71DACA292497F600965E40 /* Artsy Viewer */;
+			targetProxy = FC71DAE6292497F700965E40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC71DAED292497F700965E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+		FC71DAEE292497F700965E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC71DAF0292497F700965E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Artsy Viewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "verynicecode.Artsy-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		FC71DAF1292497F700965E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Artsy Viewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "verynicecode.Artsy-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		FC71DAF3292497F700965E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "verynicecode.Artsy-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Artsy Viewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Artsy Viewer";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+		FC71DAF4292497F700965E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "verynicecode.Artsy-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Artsy Viewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Artsy Viewer";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Release;
+		};
+		FC71DAF6292497F700965E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "verynicecode.Artsy-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Artsy Viewer";
+			};
+			name = Debug;
+		};
+		FC71DAF7292497F700965E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "verynicecode.Artsy-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Artsy Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC71DAC6292497F600965E40 /* Build configuration list for PBXProject "Artsy Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC71DAED292497F700965E40 /* Debug */,
+				FC71DAEE292497F700965E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC71DAEF292497F700965E40 /* Build configuration list for PBXNativeTarget "Artsy Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC71DAF0292497F700965E40 /* Debug */,
+				FC71DAF1292497F700965E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC71DAF2292497F700965E40 /* Build configuration list for PBXNativeTarget "Artsy ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC71DAF3292497F700965E40 /* Debug */,
+				FC71DAF4292497F700965E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC71DAF5292497F700965E40 /* Build configuration list for PBXNativeTarget "Artsy ViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC71DAF6292497F700965E40 /* Debug */,
+				FC71DAF7292497F700965E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC71DAC3292497F600965E40 /* Project object */;
+}
