@@ -14,6 +14,7 @@
 		FC71DAE0292497F600965E40 /* Artsy_ViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71DADF292497F600965E40 /* Artsy_ViewerTests.swift */; };
 		FC71DAEA292497F700965E40 /* Artsy_ViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71DAE9292497F700965E40 /* Artsy_ViewerUITests.swift */; };
 		FC71DAEC292497F700965E40 /* Artsy_ViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71DAEB292497F700965E40 /* Artsy_ViewerUITestsLaunchTests.swift */; };
+		FC71DAF929249C1B00965E40 /* Something.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71DAF829249C1B00965E40 /* Something.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FC71DAE5292497F700965E40 /* Artsy ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Artsy ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC71DAE9292497F700965E40 /* Artsy_ViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artsy_ViewerUITests.swift; sourceTree = "<group>"; };
 		FC71DAEB292497F700965E40 /* Artsy_ViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artsy_ViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC71DAF829249C1B00965E40 /* Something.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Something.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				FC71DAD0292497F600965E40 /* ContentView.swift */,
 				FC71DAD2292497F600965E40 /* Assets.xcassets */,
 				FC71DAD4292497F600965E40 /* Preview Content */,
+				FC71DAF829249C1B00965E40 /* Something.swift */,
 			);
 			path = "Artsy Viewer";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				FC71DAD1292497F600965E40 /* ContentView.swift in Sources */,
 				FC71DACF292497F600965E40 /* Artsy_ViewerApp.swift in Sources */,
+				FC71DAF929249C1B00965E40 /* Something.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +421,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Artsy Viewer/Preview Content\"";
+				DEVELOPMENT_TEAM = 5F5YW995L7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Artsy Viewer/Preview Content\"";
+				DEVELOPMENT_TEAM = 5F5YW995L7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

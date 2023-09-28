@@ -1,10 +1,12 @@
 {
   "images" : [
     {
+      "filename" : "mono-v2-final-tvos.png",
       "idiom" : "tv",
       "scale" : "1x"
     },
     {
+      "filename" : "mono-v2-final-tvos 1.png",
       "idiom" : "tv",
       "scale" : "2x"
     },
